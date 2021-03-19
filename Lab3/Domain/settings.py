@@ -1,0 +1,48 @@
+# Creating some colors
+BLUE = (0, 0, 255)
+GRAYBLUE = (50, 120, 120)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+YELLOW = (255, 255, 0)
+PURPLE = (255, 0, 255)
+BRIGHT_BLUE = (0, 255, 255)
+# define directions
+UP = 0
+DOWN = 2
+LEFT = 1
+RIGHT = 3
+
+DIRECTIONS = [(-1, 0), (1, 0), (0, 1), (0, -1)]
+
+WIDTH = 40
+HEIGHT = 40
+
+SQUARE_WIDTH = 10
+SQUARE_HEIGHT = 10
+
+WALL = 1
+EMPTY = 0
+
+FILL_FACTOR = 0.2
+
+KEEP_PROBABILITY = 0.5
+EARLY_STOP = 100
+
+INDIVIDUAL_SIZE = 100  # steps until the battery depletes
+POPULATION_SIZE = 5000
+GENERATIONS = 2000
+
+STEADY_STATE_NO_OFFSPRINGS = 500
+
+MUTATE_PROB = 0.08
+CROSSOVER_PROB = 0.7
+ERROR_FACTOR = 0
+
+#FITNESS_FUNCTION = "simpleFitness"
+#FITNESS_FUNCTION = "uniquePositionsFitness"
+FITNESS_FUNCTION = "variationFitness"
+
+#ITERATION_STRATEGY = "generational"
+ITERATION_STRATEGY = "steadyState"
