@@ -9,7 +9,7 @@ Greedy, A*, Tabu search, simulated annealing path finding <br>
 
 Requirements:
 - pygame
-- mumpy
+- numpy
 - matplotlib
 
 Genetic algorithm based exploration: <br>
