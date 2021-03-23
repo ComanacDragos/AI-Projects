@@ -7,6 +7,11 @@ Genetic algorithm based exploration <br>
 Depth first search based exploration <br>
 Greedy, A*, Tabu search, simulated annealing path finding <br>
 
+Requirements:
+- pygame
+- mumpy
+- matplotlib
+
 Genetic algorithm based exploration: <br>
 Lab3: The drone has a battery. This means that it can travel only a certain amount of positions (INDIVIDUAL_SIZE). Also other parameters can be set:
 <ul>
