@@ -17,14 +17,14 @@ The drone has a battery. This means that it can travel only a certain amount of 
 
 The drone togheter with the sensors are considered as a graph. First ant colony optimization is applied to find out the paths between each pair of vertices (an edge is the path and it's cost is the length of the path). Then the problem can be regarded similar to the travelling salesman problem. Ant colony optimisation is used to find the shortest path between all vertices and a random energy is used on each sensor. The ant that left the most energy for the sensors with as little energy as possible (minimize length of the path and maximize the energy for the sensors) is considered the best.
 
-<br><br>
+<br>
 
 Press d to show/hide the energy left to the sensors (with red are displayed the squares that could have been charged and with yellow those that are charged, and with green is diasplayed the path).
 <br>
 Press r to reset the drone and sensors positions.
 Right click a square to place the drone in the given square and start the algorithm.
 
-<br><br>
+<br>
 Also other parameters can be set:
 <ul>
   <li>ANT_SIZE: size of the battery</li>
