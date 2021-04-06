@@ -42,6 +42,8 @@ Also other parameters can be set:
 
 ![ACO](https://user-images.githubusercontent.com/46956225/113742368-3ab05080-970b-11eb-8a33-e09c7b14c8a5.png)
 
+![ACO2](https://user-images.githubusercontent.com/46956225/113742765-9da1e780-970b-11eb-8d64-f8ad0dde1f0a.png)
+
 Genetic algorithm based exploration: <br>
 The drone has a battery. This means that it can travel only a certain amount of positions (INDIVIDUAL_SIZE). Also other parameters can be set:
 <ul>
