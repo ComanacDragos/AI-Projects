@@ -9,7 +9,7 @@ class GUI:
         pygame.init()
         logo = pygame.image.load("Resources/logo32x32.png")
         pygame.display.set_icon(logo)
-        pygame.display.set_caption("GA")
+        pygame.display.set_caption("ACO")
 
         screen = pygame.display.set_mode((SQUARE_WIDTH * WIDTH, SQUARE_HEIGHT * HEIGHT))
         screen.fill(WHITE)
