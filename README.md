@@ -13,7 +13,7 @@ Requirements:
 - matplotlib
 
 Genetic algorithm based exploration: <br>
-Lab3: The drone has a battery. This means that it can travel only a certain amount of positions (INDIVIDUAL_SIZE). Also other parameters can be set:
+The drone has a battery. This means that it can travel only a certain amount of positions (INDIVIDUAL_SIZE). Also other parameters can be set:
 <ul>
   <li>POPULATION_SIZE: size of the populations</li>
   <li>GENERATIONS: number of generations</li>
@@ -42,13 +42,6 @@ The crossover consists of splitting the source and destination at a random index
 
 A path can be loaded with CTRL + L and can be saved with CTRL + S. With rightclick the drone can be moved to a new direction and the algorithm begins.
 
-Depth first search based exploration: The drone explores the map in a depth first search manner. The speed can be adjusted using left and right arrow.
-
-![lab1-1](https://user-images.githubusercontent.com/46956225/111899220-d23b5100-8a33-11eb-8988-1055ed268033.png)
-
-![lab1-2](https://user-images.githubusercontent.com/46956225/111899219-d1a2ba80-8a33-11eb-93ef-573864843c9a.png)
-
-
 Greedy, A*, Tabu search, simulated annealing path finding: The drone finds the path between 2 points on the map. The position of the drone can be set with right-click and the destination position can be set with left click. Greedy and A* can be shown by pressing G, Tabu by pressing T ( tabu search doesn't always find a path) and simulated annealing by pressing S (C can be pressed to find another path for simulated annealing). <br>
 
 For simulated annealing the keep probability can be set (the probability that a bad solution is kept) and the early stop can be set (the number of iteration 
@@ -65,5 +58,12 @@ Blue - Simulated annealing <br>
 ![lab2-2](https://user-images.githubusercontent.com/46956225/111899380-0400e780-8a35-11eb-91cb-a6fbf1d74970.png)
 
 ![lab2-3](https://user-images.githubusercontent.com/46956225/111899379-03685100-8a35-11eb-8175-1fc98ed7a351.png)
+
+<br>
+Depth first search based exploration: The drone explores the map in a depth first search manner. The speed can be adjusted using left and right arrow.
+
+![lab1-1](https://user-images.githubusercontent.com/46956225/111899220-d23b5100-8a33-11eb-8988-1055ed268033.png)
+
+![lab1-2](https://user-images.githubusercontent.com/46956225/111899219-d1a2ba80-8a33-11eb-93ef-573864843c9a.png)
 
 
