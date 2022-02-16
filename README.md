@@ -18,3 +18,8 @@ Requirements:
 - numpy
 - matplotlib
 - PyTorch
+
+Babeș-Bolyai University <br>
+Faculty of Mathematics and Computer Science <br>
+Artificial Intelligence <br>
+Second year <br>
